@@ -4,12 +4,53 @@ a {
 
 ul {
     list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
 }
 
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background: #FFFFFF;
+}
+
+.page-header {
+    border-bottom: 1px solid var #E7E9FC;
+}
+
+.container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+
+.container-header {
+    display: flex;
+    align-items: center;
+}
+
+.page-navigation {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.menu-link {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
 }
 
 .logo {
@@ -21,6 +62,10 @@ body {
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        margin-right: 76px;
+        display: block;
+        padding-top: 24px;
+        padding-bottom: 24px;
 }
 
 .logo-studio {
@@ -38,6 +83,16 @@ body {
 .link:hover,
 .link:focus {
     color: #404bbf;
+}
+
+.address {
+    display: flex;
+    font-style: normal;
+}
+
+.menu-contact {
+    display: flex;
+    gap: 40px;
 }
 
 .contact {
@@ -81,6 +136,19 @@ body {
 .button-order:hover,
 .button-order:focus {
     background-color: #404bbf;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .section-title {
