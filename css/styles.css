@@ -78,6 +78,9 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .link:hover,
@@ -287,7 +290,7 @@ body {
 
 .footer {
     background-color: #2e2f42;
-
+    padding: 100px 0;
 }
 
 .logo-footer {
@@ -298,6 +301,8 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .web-footer {
@@ -312,4 +317,5 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
